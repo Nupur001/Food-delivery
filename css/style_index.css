@@ -1,0 +1,87 @@
+body{
+	box-sizing: content-box;
+	font-family: "Verdana";
+}
+.navbar{
+	padding-top: 10px;
+	height:70px;
+}
+.navbar .container{
+	padding-left: 0px;
+	margin-left: 10px;
+}
+
+.nav-item{
+	padding-left: 20px;
+}
+
+.cart{
+	border:black 2px;
+	border-color: rgb(88,214,141);
+	border-width: 10px;
+}
+
+.change-bg{
+	background-color: white;
+}
+
+.first-box{
+	margin-top: 0px;
+	padding-top: 50px;
+	 background-image:url("../images/bg1.jpg");
+   
+  	height: auto;
+  	background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.row-content{
+	height:600%;
+	width:100%;
+	color: grey;
+	padding-top:20%;
+	padding-bottom: 20%;
+	font-size:80%;
+	text-align: left;
+	font-size: 150%;
+}
+
+.make-green{
+	color: rgb(40,180,99);
+}
+.how{
+	margin-bottom: 20%;
+}
+
+.work{
+		margin-top: 10%;
+		font-size: 150%;
+	
+}
+.item{
+	color: grey;
+	margin-top:5%;
+	margin-bottom:2%;
+}
+.make-black{
+	color:black;
+}
+
+.featured{
+	margin-bottom: 5%;
+}
+
+
+
+.navbar-light.scrolled{
+  background:white;
+}
+
+.footer{
+    background-color:rgb(46,204,113);
+    color:white;
+    margin:0px;
+    margin-top: 5%;
+    padding: 20px 20px 20px 0px;
+}
