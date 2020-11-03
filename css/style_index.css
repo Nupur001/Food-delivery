@@ -16,11 +16,7 @@ body{
 	padding-left: 20px;
 }
 
-.cart{
-	border:black 2px;
-	border-color: rgb(88,214,141);
 
-}
 
 .change-bg{
 	background-color: white;
@@ -115,8 +111,9 @@ color: white;
   width:100%;
   padding-right: 0px;
   margin-right: 0px;
+
 }
-.image,{
+.image{
 	margin:5%;
 	padding-right: 20px;
 }
@@ -148,4 +145,25 @@ color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.content{
+	
+	padding-top: 5px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	color:black;
+
+}
+
+.car{
+	border-style: solid;
+	border-color: rgb(40,180,99);
+	border-radius: 10%;
+
+
+}
+.cate{
+	padding-top: 10%;
 }
