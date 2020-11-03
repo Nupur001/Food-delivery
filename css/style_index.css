@@ -75,7 +75,7 @@ body{
 
 
 
-.zoom:hover {
+.zoom:hover,.centered:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.2); 
@@ -116,7 +116,7 @@ color: white;
   padding-right: 0px;
   margin-right: 0px;
 }
-.image{
+.image,{
 	margin:5%;
 	padding-right: 20px;
 }
@@ -130,4 +130,22 @@ color: white;
 .ya{
 	padding-top: 10%;
 	font-size:100%;
+}
+
+.menu{
+	margin-top: 10%;
+}
+.wow{
+	padding:20px;
+	margin-left: 10px;
+	margin-right: 80px;
+}
+
+.centered {
+	color:white;
+	font-size:2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
