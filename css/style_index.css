@@ -1,6 +1,7 @@
 body{
 	box-sizing: content-box;
 	font-family: "Verdana";
+	color:rgb(108, 110, 109) ;
 }
 .navbar{
 	padding-top: 10px;
@@ -18,7 +19,7 @@ body{
 .cart{
 	border:black 2px;
 	border-color: rgb(88,214,141);
-	border-width: 10px;
+
 }
 
 .change-bg{
@@ -40,11 +41,11 @@ body{
 	height:600%;
 	width:100%;
 	color: grey;
-	padding-top:20%;
+	padding-top:15%;
 	padding-bottom: 20%;
-	font-size:80%;
+	font-size:100%;
 	text-align: left;
-	font-size: 150%;
+	
 }
 
 .make-green{
@@ -74,6 +75,12 @@ body{
 
 
 
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
 .navbar-light.scrolled{
   background:white;
 }
@@ -82,6 +89,45 @@ body{
     background-color:rgb(46,204,113);
     color:white;
     margin:0px;
-    margin-top: 5%;
-    padding: 20px 20px 20px 0px;
+    
+    padding: 20px 20px 20px 20px;
+    
+}
+
+footer a{
+color: white;
+
+}
+.first{
+	background-image: url("../images/aboutbg.png");
+	height: 710px;
+  	background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.second{
+	background-image: url("../images/bg3.jpg");
+	height: auto;
+  	background-repeat:repeat-x;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.image{
+	margin:5%;
+	padding-right: 20px;
+}
+
+.part2{
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+
+.ya{
+	padding-top: 10%;
+	font-size:100%;
 }
