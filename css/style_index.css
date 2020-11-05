@@ -111,7 +111,7 @@ color: white;
   width:100%;
   padding-right: 0px;
   margin-right: 0px;
-
+padding-top: 15%;
 }
 .image{
 	margin:5%;
@@ -129,9 +129,6 @@ color: white;
 	font-size:100%;
 }
 
-.menu{
-	margin-top: 10%;
-}
 .wow{
 	padding:20px;
 	margin-left: 10px;
@@ -173,7 +170,7 @@ color: white;
 }
 
 .categor{
-	background-image: url("../images/bg4.jpg");
+	background-image: url("../images/bg7.jpg");
 	height: auto;
   	background-repeat:repeat-x;
   background-position: center;
@@ -182,5 +179,4 @@ color: white;
   padding-right: 0px;
   margin-right: 0px;
 
-}
 }
