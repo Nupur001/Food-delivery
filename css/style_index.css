@@ -71,7 +71,7 @@ body{
 
 
 
-.zoom:hover,.centered:hover {
+.zoom:hover,.centered:hover, .car:hover, .content:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.2); 
@@ -161,9 +161,12 @@ color: white;
 	border-style: solid;
 	border-color: rgb(40,180,99);
 	border-radius: 10%;
+	background-color: rgb(40,180,99);
+	color:white;
 
 
 }
 .cate{
-	padding-top: 10%;
+	padding-top: 15%;
+	padding-bottom:10%;
 }
