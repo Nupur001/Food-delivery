@@ -169,4 +169,18 @@ color: white;
 .cate{
 	padding-top: 15%;
 	padding-bottom:10%;
+
+}
+
+.categor{
+	background-image: url("../images/bg4.jpg");
+	height: auto;
+  	background-repeat:repeat-x;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  padding-right: 0px;
+  margin-right: 0px;
+
+}
 }
