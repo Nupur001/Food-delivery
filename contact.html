@@ -31,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link" href="about.html"></span>About</a></li>
                     <li class="nav-item"><a class="nav-link" href="menu.html"></span> Menu</a></li>
                     <li class="nav-item active"><a class="nav-link" href="contact.html"></span> Contact</a></li>
-                     <li class="nav-item cart"><a class="nav-link" href="cart.html"> Cart</a></li>
+                     <li class="nav-item cart"><a class="nav-link" href="login.html">Logout</a></li>
 
                 </ul>   
               </div>
@@ -69,11 +69,11 @@
               <h4>Send us your Feedback<br></h4>
            </div>
             <div class="col-12 col-md-9">
-                <form >
+                <form name="contact-form" onsubmit="return validate()" method="post" action="index.html">
                     <div class="form-group row">
                         <label for="firstname" class="col-md-2 col-form-label">First Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -85,10 +85,10 @@
                     <div class="form-group row">
                         <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
                         <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code" required>
                         </div>
                         <div class="col-7 col-md-7">
-                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number" required>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-9">
-                            <button type="submit" class="btn btn-primary small ">Send Feedback</button>
+                            <button type="submit" class="btn btn-primary small " id="S">Send Feedback</button>
                         </div>
                     </div>
                 </form>

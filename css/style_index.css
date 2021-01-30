@@ -180,3 +180,42 @@ padding-top: 15%;
   margin-right: 0px;
 
 }
+.content{
+	background-color: white;
+}
+
+
+.login-box{
+	padding: 20%;
+	background-color: white;
+	;
+
+}
+
+.form-row{
+	margin:2%;
+}
+
+form-row a{
+	color:white;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.featured:hover .overlay {
+  opacity: 1;
+
+}
+
